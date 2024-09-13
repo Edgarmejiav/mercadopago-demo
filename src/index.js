@@ -2,7 +2,7 @@
 import express from 'express';
 const app = express();
 import payment from "./routes/payment.js";
-const port = process.env.PORT || 3005;
+const port = process.env.PORT || 3000;
 
 app.use(payment);
 
